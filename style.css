@@ -24,6 +24,9 @@
   color: black;
   text-align: center;
 }
+.skills {
+  margin: 10px 5vw;
+}
 .icons {
   width: 150px;
   height: 150px;
