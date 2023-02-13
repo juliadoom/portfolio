@@ -5,6 +5,9 @@
 .nav-a {
   color: white;
 }
+.nav-a:hover{
+  color: gray;
+}
 .parallax {
   padding-top: 40vh;
   padding-bottom: 10vh;
