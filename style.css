@@ -5,8 +5,22 @@
 .nav-a {
   color: white;
 }
-.nav-a:hover{
+.nav-a:hover {
   color: gray;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: Montserrat;
+}
+.btn {
+  color: white;
+  background: transparent;
+  font-family: Montserrat;
 }
 .parallax {
   padding-top: 40vh;
@@ -27,23 +41,23 @@
   color: black;
   text-align: center;
 }
-.skills {
-  margin: 50px 10vw;
+.s {
+  margin: 100px;
 }
 .icons {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 .self {
   width: 200px;
   height: 200px;
 }
 .contact {
-  padding-top: 40vh;
+  padding-top: 10vh;
   padding-bottom: 10vh;
-  background-image: url("images/julia-redrocks.jpg");
+  background-image: url("images/background.jpg");
   background-color: rgba(0, 0, 0, 0.5);
-  min-height: 90vh;
+  min-height: 40vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
