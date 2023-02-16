@@ -81,6 +81,11 @@ p {
   color: white;
   padding-bottom: 30px;
 }
+@media (max-width: 991px) {
+  .col-mar {
+    margin: 2px 0;
+  }
+}
 .self {
   width: 300px;
   height: 300px;
