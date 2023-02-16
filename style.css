@@ -60,7 +60,7 @@ p {
   height: 80px;
 }
 .des-hero {
-  height: 500px;
+  height: 50vh;
   background-position: center;
 }
 .club {
@@ -79,7 +79,7 @@ p {
   font-size: 26px;
   font-weight: bold;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 10vh;
   color: white;
   padding-bottom: 30px;
 }
@@ -94,7 +94,7 @@ p {
   transform: rotate(-10deg);
 }
 .contact {
-  padding: 10vh;
+  padding: 10vh 5vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/background.jpg");
   background-color: rgba(0, 0, 0, 0.5);
