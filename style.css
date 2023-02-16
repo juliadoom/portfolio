@@ -85,10 +85,8 @@ p {
 }
 @media (max-width: 991px) {
   .col-mar {
-    margin: 2px 0;
+    margin: 5px 0;
   }
-}
-.resume {
 }
 .self {
   width: 300px;
@@ -96,8 +94,7 @@ p {
   transform: rotate(-10deg);
 }
 .contact {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/background.jpg");
   background-color: rgba(0, 0, 0, 0.5);
