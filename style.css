@@ -93,6 +93,10 @@ p {
   height: 300px;
   transform: rotate(-10deg);
 }
+.socials {
+  width: 20px;
+  height: 20px;
+}
 .contact {
   padding: 10vh 5vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
