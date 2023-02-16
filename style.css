@@ -17,6 +17,10 @@ h6 {
   font-weight: 700;
   font-family: Montserrat;
 }
+p {
+  font-family: Raleway;
+  line-height: 1.7em;
+}
 .btn {
   color: white;
   background: transparent;
@@ -25,7 +29,8 @@ h6 {
 .parallax {
   padding-top: 40vh;
   padding-bottom: 10vh;
-  background-image: url("images/julia-redrocks.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/julia-redrocks.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   min-height: 90vh;
   background-attachment: fixed;
@@ -41,21 +46,51 @@ h6 {
   color: black;
   text-align: center;
 }
-.s {
-  margin: 100px;
+.a {
+  padding: 5vw 10vw;
+}
+.b {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 5vw 10vw;
 }
 .icons {
   width: 80px;
   height: 80px;
 }
+.des-hero {
+  height: 500px;
+  background-position: center;
+}
+.club {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/banner-2.png");
+}
+.resort {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/banner-1.png");
+}
+.sim {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/banner.png");
+}
+.des-text {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  padding-bottom: 30px;
+}
 .self {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+  transform: rotate(-10deg);
 }
 .contact {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  background-image: url("images/background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/background.jpg");
   background-color: rgba(0, 0, 0, 0.5);
   min-height: 40vh;
   background-attachment: fixed;
