@@ -94,8 +94,11 @@ p {
   transform: rotate(-10deg);
 }
 .socials {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+}
+.socials:hover {
+  transform: scale(1.1);
 }
 .contact {
   padding: 10vh 5vw;
