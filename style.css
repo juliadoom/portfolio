@@ -92,6 +92,8 @@ p {
   width: 300px;
   height: 300px;
   transform: rotate(-10deg);
+}.soc {
+  border: 1px solid white !important;
 }
 .socials {
   width: 40px;
