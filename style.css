@@ -42,7 +42,8 @@ section#parallax {
   background-size: cover;
 }
 .but {
-  border: 1px solid transparent !important;
+  justify-content: center; 
+  background-color: transparent !important;
 }
 .header-light {
   color: white;
@@ -108,7 +109,7 @@ section#parallax {
   transform: scale(1.1);
 }
 .contact {
-  padding: 10vh 5vw;
+  padding: 10vh 15vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/background.jpg");
   background-color: rgba(0, 0, 0, 0.5);
