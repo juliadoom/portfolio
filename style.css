@@ -28,7 +28,7 @@ p {
   background: transparent;
   font-family: Montserrat;
 }
-.parallax {
+section#parallax {
   padding-top: 40vh;
   padding-bottom: 10vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -93,7 +93,8 @@ p {
   width: 300px;
   height: 300px;
   transform: rotate(-10deg);
-}.soc {
+}
+.soc {
   border: 1px solid white !important;
 }
 .socials {
