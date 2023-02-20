@@ -41,6 +41,9 @@ section#parallax {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.but {
+  border: 1px solid transparent !important;
+}
 .header-light {
   color: white;
   text-align: center;
