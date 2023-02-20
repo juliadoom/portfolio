@@ -44,6 +44,7 @@ section#parallax {
 .but {
   justify-content: center; 
   background-color: transparent !important;
+  border:none !important;
 }
 .header-light {
   color: white;
